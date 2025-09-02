@@ -3,8 +3,15 @@
 <img src="images/logo.png" alt="Girl in a jacket" width="200" >
 
 
-Este proyecto utiliza el dataset **Telco Customer Churn** de Kaggle, que contiene información sobre clientes de telecomunicaciones, incluyendo si abandonaron el servicio (“churn”), los servicios contratados (teléfono, internet, soporte técnico, etc.), datos de cuenta (tenencia, tipo de contrato, pago) y demográficos (género, dependientes, etc.) :contentReference[oaicite:1]{index=1}.
+Este proyecto utiliza el dataset **Telco Customer Churn** de Kaggle, que contiene información sobre clientes de telecomunicaciones, incluyendo si abandonaron el servicio (“churn”), los servicios contratados (teléfono, internet, soporte técnico, etc.), datos de cuenta (tenencia, tipo de contrato, pago) y demográficos (género, dependientes, etc.) 
 
+> Más detalles del dataset en [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)   
+
+## Objetivo del proyecto
+
+* Comprender los factores que influyen en el churn de clientes de telecomunicaciones.
+* Desarrollar un modelo predictivo para identificar clientes en riesgo de abandono.
+* Proveer una visualización interactiva para explorar los datos y los resultados de los modelos.
 
 ##  Enlaces del proyecto
 
@@ -19,26 +26,29 @@ Este proyecto utiliza el dataset **Telco Customer Churn** de Kaggle, que contien
 ##  Estructura del proyecto
 
 ```text
-/
-├── README.md
-├── requirements.txt
-├── app.py          # archivo principal para la app de Streamlit
-└── notebooks/
-    └── churn_analysis.ipynb  # notebook para análisis exploratorio y modelado
+├─── code   # Carpeta con notebooks 
+├─── data   # Carpeta con datos
+├─── images # Carpeta con imágenes
+├─── .gitignore
+├─── app.py
+├─── LICENSE
+├─── README.md
+├─── requirements.txt
+└── README.md
 ````
 
----
+
 
 ## Descripción de componentes
 
-* `streamlit_app.py`:
+* `app.py`:
   Presenta una interfaz interactiva donde puedes:
 
   * Cargar y visualizar datos.
   * Mostrar estadísticas descriptivas y gráficos.
   * Ejecutar modelo de predicción de churn (por ejemplo, regresión logística o árbol de decisión).
 
-* `notebooks/churn_analysis.ipynb`:
+* `notebooks/Telco-Customer-Churn.ipynb`:
 
   * **Carga y limpieza de datos**
   * **Análisis exploratorio (EDA)**
@@ -46,7 +56,7 @@ Este proyecto utiliza el dataset **Telco Customer Churn** de Kaggle, que contien
   * **Entrenamiento y evaluación de modelos**
   * **Visualización de métricas** (confusión, métricas de rendimiento)
 
----
+
 
 ## Cómo usar el proyecto
 
@@ -61,7 +71,7 @@ Este proyecto utiliza el dataset **Telco Customer Churn** de Kaggle, que contien
 2. Ejecuta las celdas paso a paso para reproducir el análisis y entrenamiento.
 3. Puedes modificar o extender los análisis a tu gusto.
 
----
+
 
 ## Requisitos
 
@@ -81,16 +91,6 @@ Instálalas con:
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## Objetivo del proyecto
-
-* Comprender los factores que influyen en el churn de clientes de telecomunicaciones.
-* Desarrollar un modelo predictivo para identificar clientes en riesgo de abandono.
-* Proveer una visualización interactiva para explorar los datos y los resultados de los modelos.
-
-
 
 ## Licencia
 
