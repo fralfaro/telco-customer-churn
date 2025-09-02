@@ -16,10 +16,10 @@ Este proyecto utiliza el dataset **Telco Customer Churn** de Kaggle, que contien
 ##  Enlaces del proyecto
 
 - 🌐 **Aplicación desplegada en Streamlit Cloud**  
-  [Tu App en Streamlit](link_a_tu_app_streamlit)
+  [Tu App en Streamlit](https://telco-churn-example.streamlit.app/)
 
 - 📓 **Código en Google Colab**  
-  [Cuaderno de Google Colab](link_a_tu_colab)
+  [Cuaderno de Google Colab](https://colab.research.google.com/drive/1WsiD8KQAxMBivJF0JDvXIXdKqXtYU1Rc?usp=sharing)
 
 
 
